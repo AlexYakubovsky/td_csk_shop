@@ -113,8 +113,9 @@ export default {
     text-transform: uppercase
     &-tooltip
       margin-left: 4px
-      margin-top: -24px
+      margin-top: -5px
       cursor: help
+      height: 15px
   &__image
     margin: 40px 20px 40px 0px
   &__legals-types-wrapper
