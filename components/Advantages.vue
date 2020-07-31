@@ -7,9 +7,12 @@
       li.v-advantages__list-item
         img.v-advantages__list-image(src="~@/assets/images/icons/adv-goods.svg")
         p.v-advantages__list-desc
-          | Большой ассортимент
+          | Большой ассортимент более
+          span.v-advantages__bold
+            | &nbsp;100 тыс
           span.v-advantages__accent
             | товаров
+
       li.v-advantages__list-item
         img.v-advantages__list-image(src="~@/assets/images/icons/adv-sales.svg")
         .v-advantages__list-desc
@@ -72,14 +75,14 @@ export default {
       transform: matrix(-1, 0, 0, 1, 0, 0)
   &__list
     display: flex
-    margin: 30px 160px
+    margin: 30px 110px
     &-item
       display: flex
       align-items: center
     &-desc
       display:
-      margin-left: 30px
-      margin-right: 57px
+      margin-left: 10px
+      margin-right: 30px
       font-weight: 400
       font-size: 22px
       letter-spacing: .07em
@@ -92,4 +95,6 @@ export default {
     color: $red
     letter-spacing: .07em
     text-transform: uppercase
+  &__bold
+    font-weight: 700
 </style>

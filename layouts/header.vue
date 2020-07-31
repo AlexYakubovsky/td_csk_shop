@@ -370,7 +370,7 @@ export default {
   cursor: pointer
   transition: color .1s ease
   img
-    margin-bottom: 3px
+    margin-top: 3px
   &:hover
     color: $red
 #Feedback
@@ -473,6 +473,8 @@ export default {
         color: $red
     &-list
       padding-left: 0
+      &:first-child
+        margin-bottom: 25px
     &-list-item
       list-style: none
       display: inline-flex
@@ -481,7 +483,6 @@ export default {
         margin-right: 40px
       &-title
         display: inline-block
-        font-weight: 400
         margin-left: 8px
         font-weight: 500
   &__feedback
@@ -660,6 +661,6 @@ export default {
         font-weight: 500
         line-height: 16px
         letter-spacing: .07em
-  .selectedCategory,
+  .selectedCategory
     background-color: darken($gray-1, 10%)
 </style>

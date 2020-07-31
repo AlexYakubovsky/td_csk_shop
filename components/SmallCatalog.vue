@@ -317,6 +317,6 @@ export default {
     display: flex
     flex-wrap: wrap
     align-content: flex-start
-    justify-content: center
-    padding: 15px
+    /*justify-content: center*/
+    padding: 0 140px 0 150px
 </style>

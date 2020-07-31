@@ -61,7 +61,7 @@ export default {
     width: 260px
     height: 270px
     flex: 1 1 auto
-    margin: 10px
+    margin: 16px
     background-color: white
     border: 2px solid #CDCDCD
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
@@ -95,18 +95,13 @@ export default {
         font-weight: 500
         margin-bottom: 7px
 
-  &__transparent-top, &__transparent-bottom
+  &__transparent-bottom
     position: absolute
     z-index: 1
     left: 18px
     width: 280px
     height: 8px
     border-radius: 8px
-
-  &__transparent-top
-    top: 0
-    background-image: linear-gradient(180deg, #fff, hsla(0%, 0%, 100%, .6))
-    transform: translateZ(-2px)
 
   &__transparent-bottom
     bottom: 0
@@ -121,7 +116,7 @@ export default {
     overflow: auto
     display: flex
     align-items: flex-start
-    height: 100%
+    height: 97%
     padding: 0px 13px
     transform: rotateY(-180deg) translateZ(1px)
     transition: z-index 1.2s
@@ -140,7 +135,7 @@ export default {
       padding: 0 1px 0 0
       li
         &:not(:last-child)
-          margin-bottom: 4px
+          margin-bottom: 8px
         a
           color: #202020
           font-size: 15px
